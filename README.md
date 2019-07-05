@@ -12,14 +12,13 @@ O objetivo deste projeto é compilar os tutoriais mais interessantes do **GPC - 
 
 # 3. Tutoriais
 
-# 3.1. Browse nos Tutoriais
+## 3.1. Browse nos Tutoriais
 
 * [Browse Tutorials](https://cloud.google.com/community/tutorials/)
 
-# 3.2. APP Engine 
+## 3.2. APP Engine 
 
-* []()
-
+### App Engine Python Hello World
 
 ```gcloud-shell
 git clone https://github.com/GoogleCloudPlatform/python-docs-samples
@@ -33,6 +32,7 @@ gcloud app create
 gcloud app deploy app.yaml --project eval-2019-06
 gcloud app browse --project=eval-2019-06
 ```
+
 
 
 # I - Referencias
