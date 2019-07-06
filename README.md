@@ -16,7 +16,17 @@ O objetivo deste projeto é compilar os tutoriais mais interessantes do **GPC - 
 
 * [Browse Tutorials](https://cloud.google.com/community/tutorials/)
 
-## 3.2. APP Engine 
+## 3.2. Google Cloud SDK - Command Line
+
+```gcloudshell
+gcloud auth login                          # Inicia o browser Chrome ou solicita autenticação pelo browser
+gcloud config list                         # Show configurations set: project, region, zone, etc.
+gcloud config set compute/region us-west1  # setting region 
+gcloud config set compute/zone us-west1-a  # ... and zone
+```
+
+
+## 3.3. APP Engine 
 
 ### App Engine Python Hello World
 
