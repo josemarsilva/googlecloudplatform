@@ -1,4 +1,4 @@
-## googlecloudplatform
+﻿## googlecloudplatform
 Google Cloud Platform
 
 # 1. Introdução
@@ -25,10 +25,26 @@ gcloud config set compute/region us-west1  # setting region
 gcloud config set compute/zone us-west1-a  # ... and zone
 ```
 
+## 3.3. Google Cloud Compute Engine
 
-## 3.3. APP Engine 
+### GCloud Engine - NGinx
 
-### App Engine Python Hello World
+```gcloudshell
+gcloud compute firewall-rules create allow-http \
+  --target-tags http-server \
+  --allow tcp:80
+
+gcloud beta compute instances create-with-container nginx-vm \
+  --tags http-server \
+  --container-image nginx:alpine \
+  --zone us-east1-c
+
+```
+
+
+## 3.4. Google APP Engine 
+
+### App Engine - Python Hello World
 
 ```gcloud-shell
 git clone https://github.com/GoogleCloudPlatform/python-docs-samples
