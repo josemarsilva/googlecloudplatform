@@ -10,7 +10,14 @@ O objetivo deste projeto é compilar os tutoriais mais interessantes do **GPC - 
   * [GCloud SDK - login and config](#321-gcloud-sdk---login-and-config)
   * [GCloud SDK - components installation](#322-GCloud-SDK---components-installation)
 * [Google Cloud Compute Engine](#33-Google-Cloud-Compute-Engine)
-
+  * [GCloud Compute Engine - NGinx](#gcloud-compute-engine---nginx)
+  * [GCloud Compute Engine - Jenkins using Docker](#gcloud-compute-engine---jenkins-using-docker)
+  * [GCloud Compute Engine - Bamboo using Docker](#gcloud-compute-engine---bamboo-using-docker)
+  * [GCloud Compute Engine - Hercules MVS 3.8 turnkey-4-system](#gcloud-compute-engine---Hercules-MVS-3.8-turnkey-4-system)
+* [Google APP Engine](#33-Google-APP-Engine)
+  * [GCloud App Engine - Python Hello World](#gcloud-app-engine---Python-Hello-World)
+### App Engine - Python Hello World
+* [Referências](#i---referencias)
 
 # 2. Premissas
 
@@ -112,20 +119,36 @@ Do you want to continue (Y/n)?  Y
 
 ## 3.3. Google Cloud Compute Engine
 
-### GCloud Engine - NGinx
+### GCloud Compute Engine - NGinx
+
+* Step-01: Create Firewall rules:
 
 ```gcloud-shell
 gcloud compute firewall-rules create allow-http \
   --target-tags http-server \
   --allow tcp:80
+```
 
+* Step-02: Run Container
+
+```gcloud-shell
 gcloud beta compute instances create-with-container nginx-vm \
   --tags http-server \
   --container-image nginx:alpine \
   --zone us-east1-c
 ```
 
-### GCloud Engine - Jenkins using Docker
+* Step-03: List all running container and stop running container
+
+```gcloud-shell
+gcloud beta compute instances list
+gcloud beta compute instances stop   nginx-vm --zone us-east1-c
+gcloud beta compute instances delete nginx-vm --zone us-east1-c
+```
+
+
+
+### GCloud Compute Engine - Jenkins using Docker
 
 * References:
   * [Running Jenkins server Using Docker](https://github.com/GoogleCloudPlatform/jenkins-docker/blob/master/2/README.md)
@@ -187,24 +210,71 @@ docker stop some-jenkins
 ````
 
 
-
-
-### GCloud Engine - Bamboo using Docker
+### GCloud Compute Engine - Bamboo using Docker
 
 * References:
   * [Running Bamboo server Using Docker](https://hub.docker.com/r/atlassian/bamboo-server/)
 
-* Step 01: Create Bamboo volume
+* Step 01: Create Bamboo volume `under construction`
 
 ```gcloud-shell
-docker stop some-jenkins
+docker volume create bamboo-server
 ```
 
 
 
+### GCloud Compute Engine - Hercules MVS 3.8 turnkey-4-system
+
+* References:
+  * [Reading Pre-requisites](https://hub.docker.com/r/hermajordoctor/hercules)
 
 
-## 3.4. Google APP Engine 
+* Step 01: Download image
+
+```gcloud-shell
+docker pull hermajordoctor/hercules
+```
+
+* Step 02: Configure firewall-rules
+
+```gcloud-shell
+gcloud compute firewall-rules create allow-hercules \
+  --target-tags hercules \
+  --allow tcp:3270,tcp:8081
+
+gcloud compute firewall-rules list
+```
+
+* Step 03: Run Container
+
+```gcloud-shell
+gcloud beta compute instances create-with-container hercules \
+  --tags hercules \
+  --container-image hermajordoctor/hercules \
+  --zone us-east1-c
+```
+
+* Step 04: List running Container
+
+```gcloud-shell
+gcloud beta compute instances list
+```
+
+* Step 05: Stop running Container
+
+```gcloud-shell
+gcloud beta compute instances stop hercules --zone us-east1-c
+```
+
+* Step 06: Remover a imagem local do Container
+
+```gcloud-shell
+gcloud beta compute instances delete hercules --zone us-east1-c
+```
+
+
+
+## 3.4. Google APP Engine
 
 ### App Engine - Python Hello World
 
@@ -220,7 +290,6 @@ gcloud app create
 gcloud app deploy app.yaml --project eval-2019-06
 gcloud app browse --project=eval-2019-06
 ```
-
 
 
 # I - Referencias
