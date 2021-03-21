@@ -6,7 +6,7 @@ Google Cloud Platform
 O objetivo deste projeto é compilar informações, tutoriais mais interessantes do **GPC - Google Cloud Platform**, dicas e plano de estudo para Road map do primeiro nivel de certificação **Associate Cloud Engineer** e laboratórios de experimientação:
 
 * [Road Map to Associate Cloud Engineer](#road-map-to-associate-cloud-engineer)
-  [Plano de estudo detalhado para a certificação Associate Cloud Engieer](#plano-de-estudo-detalhado-para-a-certificacao-associate-cloud-engieer)
+  * [Plano de estudo detalhado para a certificação Associate Cloud Engieer](#plano-de-estudo-detalhado-para-a-certificacao-associate-cloud-engieer)
 * [Browse Tutorial](#41-browse-tutorials)
 * [Google Cloud SDK - Command Line Tool](#42-google-cloud-sdk---command-line-tool)
   * [GCloud SDK - login and config](#421-gcloud-sdk---login-and-config)
@@ -304,4 +304,5 @@ gcloud app browse --project=eval-2019-06
 
 # I - Referencias
 * [Google Cloud Platform Tutorial | Google Cloud Platform Fundamentals | GCP Training | Edureka](https://www.youtube.com/watch?v=_Q0tRI5hMnc&t=230s)
-https://github.com/GoogleCloudPlatform/jenkins-docker/blob/master/2/README.md#using-docker
+(https://github.com/GoogleCloudPlatform/jenkins-docker/blob/master/2/README.md#using-docker)
+* [Alura - Curso Certificação Google Cloud Engineer](https://cursos.alura.com.br/course/google-cloud-engineer-certificacao-parte1)
