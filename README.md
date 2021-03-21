@@ -3,9 +3,10 @@ Google Cloud Platform
 
 # 1. Introdução
 
-O objetivo deste projeto é compilar informações e tutoriais mais interessantes do **GPC - Google Cloud Platform** e sobre o primeiro nivel de certificação **Associate Cloud Engineer**:
+O objetivo deste projeto é compilar informações, tutoriais mais interessantes do **GPC - Google Cloud Platform**, dicas e plano de estudo para Road map do primeiro nivel de certificação **Associate Cloud Engineer** e laboratórios de experimientação:
 
 * [Road Map to Associate Cloud Engineer](#road-map-to-associate-cloud-engineer)
+  [Plano de estudo detalhado para a certificação Associate Cloud Engieer](#plano-de-estudo-detalhado-para-a-certificacao-associate-cloud-engieer)
 * [Browse Tutorial](#41-browse-tutorials)
 * [Google Cloud SDK - Command Line Tool](#42-google-cloud-sdk---command-line-tool)
   * [GCloud SDK - login and config](#421-gcloud-sdk---login-and-config)
@@ -22,11 +23,11 @@ O objetivo deste projeto é compilar informações e tutoriais mais interessante
 
 # 2. Premissas
 
-* [Uma conta ativa no Google Cloud Plataform - GCloud][https://cloud.google.com/]
+* [Uma conta ativa no Google Cloud Plataform - GCloud](https://cloud.google.com/)
 
 # 3. Road Map to Associate Cloud Engineer
 
-* [Study Plan](https://docs.google.com/spreadsheets/d/1_7C9r3-O2EnxrYHIr08rtd_W807kT5U3tUPAyVocUjg)
+* [Plano de estudo detalhado para a certificação Associate Cloud Engieer](https://docs.google.com/spreadsheets/d/1_7C9r3-O2EnxrYHIr08rtd_W807kT5U3tUPAyVocUjg)
 
 # 4. Tutoriais
 
@@ -296,6 +297,10 @@ gcloud app deploy app.yaml --project eval-2019-06
 gcloud app browse --project=eval-2019-06
 ```
 
+
+# 5. Laboratory
+
+* to-do
 
 # I - Referencias
 * [Google Cloud Platform Tutorial | Google Cloud Platform Fundamentals | GCP Training | Edureka](https://www.youtube.com/watch?v=_Q0tRI5hMnc&t=230s)
