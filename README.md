@@ -33,7 +33,7 @@ O objetivo deste projeto é compilar informações, tutoriais mais interessantes
 
 * Google Cloud Platform - Storage - Meta Data Dictionary
 
-![Google Cloud Platform - Storage - Meta Data Dictionary](./doc/Google Cloud Platform Meta Data Dictionary.png)
+![Google Cloud Platform - Storage - Meta Data Dictionary](./doc/Google%20Cloud%20Platform%20Meta%20Data%20Dictionary.png)
 
 # 4. Tutoriais
 
