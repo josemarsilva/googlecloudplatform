@@ -3,18 +3,19 @@ Google Cloud Platform
 
 # 1. Introdução
 
-O objetivo deste projeto é compilar os tutoriais mais interessantes do **GPC - Google Cloud Platform**:
+O objetivo deste projeto é compilar informações e tutoriais mais interessantes do **GPC - Google Cloud Platform** e sobre o primeiro nivel de certificação **Associate Cloud Engineer**:
 
-* [Browse Tutorial](#31-browse-tutorials)
-* [Google Cloud SDK - Command Line Tool](#32-google-cloud-sdk---command-line-tool)
-  * [GCloud SDK - login and config](#321-gcloud-sdk---login-and-config)
-  * [GCloud SDK - components installation](#322-GCloud-SDK---components-installation)
-* [Google Cloud Compute Engine](#33-Google-Cloud-Compute-Engine)
+* [Road Map to Associate Cloud Engineer](#road-map-to-associate-cloud-engineer)
+* [Browse Tutorial](#41-browse-tutorials)
+* [Google Cloud SDK - Command Line Tool](#42-google-cloud-sdk---command-line-tool)
+  * [GCloud SDK - login and config](#421-gcloud-sdk---login-and-config)
+  * [GCloud SDK - components installation](#422-GCloud-SDK---components-installation)
+* [Google Cloud Compute Engine](#43-Google-Cloud-Compute-Engine)
   * [GCloud Compute Engine - NGinx](#gcloud-compute-engine---nginx)
   * [GCloud Compute Engine - Jenkins using Docker](#gcloud-compute-engine---jenkins-using-docker)
   * [GCloud Compute Engine - Bamboo using Docker](#gcloud-compute-engine---bamboo-using-docker)
   * [GCloud Compute Engine - Hercules MVS 3.8 turnkey-4-system](#gcloud-compute-engine---Hercules-MVS-3.8-turnkey-4-system)
-* [Google APP Engine](#33-Google-APP-Engine)
+* [Google APP Engine](#43-Google-APP-Engine)
   * [GCloud App Engine - Python Hello World](#gcloud-app-engine---Python-Hello-World)
 ### App Engine - Python Hello World
 * [Referências](#i---referencias)
@@ -23,15 +24,19 @@ O objetivo deste projeto é compilar os tutoriais mais interessantes do **GPC - 
 
 * [Uma conta ativa no Google Cloud Plataform - GCloud][https://cloud.google.com/]
 
-# 3. Tutoriais
+# 3. Road Map to Associate Cloud Engineer
 
-## 3.1. Browse Tutorials
+* [Study Plan](https://docs.google.com/spreadsheets/d/1_7C9r3-O2EnxrYHIr08rtd_W807kT5U3tUPAyVocUjg)
+
+# 4. Tutoriais
+
+## 4.1. Browse Tutorials
 
 * [Browse Tutorials](https://cloud.google.com/community/tutorials/)
 
-## 3.2. Google Cloud SDK - Command Line Tool
+## 4.2. Google Cloud SDK - Command Line Tool
 
-## 3.2.1. GCloud SDK - login and config
+## 4.2.1. GCloud SDK - login and config
 
 ```gcloud-shell
 gcloud auth login                          # Inicia o browser Chrome ou solicita autenticação pelo browser
@@ -40,7 +45,7 @@ gcloud config set compute/region us-west1  # setting region
 gcloud config set compute/zone us-west1-a  # ... and zone
 ```
 
-## 3.2.2. GCloud SDK - components installation
+## 4.2.2. GCloud SDK - components installation
 
 * References: 
   * [Youtube Kubernetes + Google Cloud + Docker: Getting Started](https://www.youtube.com/watch?v=GTRS9zRWs80&t=217s)
@@ -117,7 +122,7 @@ Do you want to continue (Y/n)?  Y
 
 
 
-## 3.3. Google Cloud Compute Engine
+## 4.3. Google Cloud Compute Engine
 
 ### GCloud Compute Engine - NGinx
 
@@ -274,7 +279,7 @@ gcloud beta compute instances delete hercules --zone us-east1-c
 
 
 
-## 3.4. Google APP Engine
+## 4.4. Google APP Engine
 
 ### App Engine - Python Hello World
 
