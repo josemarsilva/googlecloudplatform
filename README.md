@@ -7,6 +7,7 @@ O objetivo deste projeto é compilar informações, tutoriais mais interessantes
 
 * [Road Map to Associate Cloud Engineer](#road-map-to-associate-cloud-engineer)
   * [Plano de estudo detalhado para a certificação Associate Cloud Engieer](#plano-de-estudo-detalhado-para-a-certificacao-associate-cloud-engieer)
+    * [Google Cloud Platform - Meta Data Dictionary](#31-google-Cloud-Platform---Meta-Data-Dictionary)
 * [Browse Tutorial](#41-browse-tutorials)
 * [Google Cloud SDK - Command Line Tool](#42-google-cloud-sdk---command-line-tool)
   * [GCloud SDK - login and config](#421-gcloud-sdk---login-and-config)
@@ -29,9 +30,9 @@ O objetivo deste projeto é compilar informações, tutoriais mais interessantes
 
 * [Plano de estudo detalhado para a certificação Associate Cloud Engieer](https://docs.google.com/spreadsheets/d/1_7C9r3-O2EnxrYHIr08rtd_W807kT5U3tUPAyVocUjg)
 
-# 3.1. Google Cloud Platform - Meta Data Dictionary
+## 3.1. Google Cloud Platform - Meta Data Dictionary
 
-* Google Cloud Platform - Storage - Meta Data Dictionary
+### Google Cloud Platform - Storage - Meta Data Dictionary
 
 ![Google Cloud Platform - Storage - Meta Data Dictionary](./doc/Google%20Cloud%20Platform%20Meta%20Data%20Dictionary.png)
 
