@@ -304,5 +304,5 @@ gcloud app browse --project=eval-2019-06
 
 # I - Referencias
 * [Google Cloud Platform Tutorial | Google Cloud Platform Fundamentals | GCP Training | Edureka](https://www.youtube.com/watch?v=_Q0tRI5hMnc&t=230s)
-(https://github.com/GoogleCloudPlatform/jenkins-docker/blob/master/2/README.md#using-docker)
 * [Alura - Curso Certificação Google Cloud Engineer](https://cursos.alura.com.br/course/google-cloud-engineer-certificacao-parte1)
+* [Google Cloud Platform - Jenkins - Docker](https://github.com/GoogleCloudPlatform/jenkins-docker/blob/master/2/README.md#using-docker)
