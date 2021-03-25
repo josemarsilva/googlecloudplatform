@@ -35,7 +35,7 @@ O objetivo deste projeto é compilar informações, tutoriais mais interessantes
 
 ### 3.1.1. Google Cloud Platform - Instance - Meta Data Dictionary
 
-![Google Cloud Platform - Compute - Metadata Dictionary](./doc/Google Cloud Platform - Compute - Metadata Dictionary.png)
+![Google Cloud Platform - Compute - Metadata Dictionary](./doc/Google%20Cloud%20Platform%20-%20Compute%20-%20Metadata%20Dictionary.png)
 
 ### 3.1.2. Google Cloud Platform - Storage - Meta Data Dictionary
 
